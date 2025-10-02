@@ -1,0 +1,180 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2051}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1554}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6395}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} &
+\multicolumn{2}{>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.7949} + 2\tabcolsep}@{}}{%
+\begin{minipage}[b]{\linewidth}\raggedright
+Puneet
+
+Bali
+
+\textbf{Computer Science Student}
+\end{minipage}} \\
+\midrule()
+\endhead
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+} & \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+\includegraphics[width=0.19291in,height=0.19291in]{vertopal_482420147fda426aae7e9e55d2162dac/media/image1.png}
+Phone} & +123-456-789 \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+\includegraphics[width=0.19291in,height=0.19291in]{vertopal_482420147fda426aae7e9e55d2162dac/media/image4.png}
+Email} & puneet@gmail.com \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+\includegraphics[width=0.19291in,height=0.19291in]{vertopal_482420147fda426aae7e9e55d2162dac/media/image7.png}
+City / State / Country} & Germany \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+\includegraphics[width=0.19291in,height=0.19291in]{vertopal_482420147fda426aae7e9e55d2162dac/media/image10.png}
+LinkedIn} & Puneet09 \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+\includegraphics[width=0.19291in,height=0.19291in]{vertopal_482420147fda426aae7e9e55d2162dac/media/image13.png}
+Skype} & \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3605} + 2\tabcolsep}}{%
+\includegraphics[width=0.19291in,height=0.19291in]{vertopal_482420147fda426aae7e9e55d2162dac/media/image16.png}
+Website} & https://puneetbali494-creator.github.io/ \\
+\multicolumn{3}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{1.0000} + 4\tabcolsep}@{}}{%
+} \\
+\multicolumn{3}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{1.0000} + 4\tabcolsep}@{}}{%
+\begin{minipage}[t]{\linewidth}\raggedright
+\hypertarget{are-you-looking-for-a-job-title-with}{%
+\subsection{\texorpdfstring{Are you looking for a \textbf{{[}Job
+Title{]}}
+with:}{Are you looking for a {[}Job Title{]} with:}}\label{are-you-looking-for-a-job-title-with}}
+
+\begin{itemize}
+\item ~
+  \hypertarget{number-years-of-hands-on-experience-in-area-of-expertise}{%
+  \subsection{\texorpdfstring{\textbf{{[}Number{]} years} of hands-on
+  experience in \textbf{{[}Area of
+  Expertise{]}}?}{{[}Number{]} years of hands-on experience in {[}Area of Expertise{]}?}}\label{number-years-of-hands-on-experience-in-area-of-expertise}}
+\item ~
+  \hypertarget{knowledge-of-the-latest-technologies-in-industry-or-field}{%
+  \subsection{\texorpdfstring{Knowledge of the latest technologies in
+  \textbf{{[}Industry or
+  Field{]}}?}{Knowledge of the latest technologies in {[}Industry or Field{]}?}}\label{knowledge-of-the-latest-technologies-in-industry-or-field}}
+\item ~
+  \hypertarget{excellent-written-and-oral-communication-skills}{%
+  \subsection{\texorpdfstring{\textbf{Excellent written and oral
+  communication
+  skills}?}{Excellent written and oral communication skills?}}\label{excellent-written-and-oral-communication-skills}}
+\item ~
+  \hypertarget{a-passion-to-learn-and-continuously-improve-my-skills}{%
+  \subsection{A passion to learn and continuously improve my
+  skills?}\label{a-passion-to-learn-and-continuously-improve-my-skills}}
+\end{itemize}
+
+\hypertarget{if-so-then-look-no-further.-you-will-see-from-my-enclosed-cv-and-portfolio-that-i-meet-all-these-qualifications-and-more.-my-portfolio-hosted-on-github-pages-showcases-the-projects-i-have-worked-on-the-technologies-i-have-mastered-and-my-dedication-to-creating-well-documented-and-functional-projects.}{%
+\subsection{\texorpdfstring{If so, then look no further. You will see
+from my \textbf{enclosed CV} and portfolio that I meet all these
+qualifications and more. My portfolio, hosted on \textbf{GitHub Pages},
+showcases the projects I have worked on, the technologies I have
+mastered, and my dedication to creating well-documented and functional
+projects.}{If so, then look no further. You will see from my enclosed CV and portfolio that I meet all these qualifications and more. My portfolio, hosted on GitHub Pages, showcases the projects I have worked on, the technologies I have mastered, and my dedication to creating well-documented and functional projects.}}\label{if-so-then-look-no-further.-you-will-see-from-my-enclosed-cv-and-portfolio-that-i-meet-all-these-qualifications-and-more.-my-portfolio-hosted-on-github-pages-showcases-the-projects-i-have-worked-on-the-technologies-i-have-mastered-and-my-dedication-to-creating-well-documented-and-functional-projects.}}
+
+\hypertarget{i-would-love-the-opportunity-to-discuss-potential-opportunities-with-company-name.-to-schedule-an-interview-please-call-me-at-phone-number.-the-best-time-to-reach-me-is-between-earliest-time-and-latest-time.-however-feel-free-to-leave-a-voice-message-and-i-will-return-your-call-as-soon-as-possible.}{%
+\subsection{\texorpdfstring{I would love the opportunity to discuss
+potential opportunities with \textbf{{[}Company Name{]}}. To schedule an
+interview, please call me at \textbf{{[}Phone Number{]}}. The best time
+to reach me is between \textbf{{[}Earliest Time{]}} and
+\textbf{{[}Latest Time{]}}. However, feel free to leave a voice message,
+and I will return your call as soon as
+possible.}{I would love the opportunity to discuss potential opportunities with {[}Company Name{]}. To schedule an interview, please call me at {[}Phone Number{]}. The best time to reach me is between {[}Earliest Time{]} and {[}Latest Time{]}. However, feel free to leave a voice message, and I will return your call as soon as possible.}}\label{i-would-love-the-opportunity-to-discuss-potential-opportunities-with-company-name.-to-schedule-an-interview-please-call-me-at-phone-number.-the-best-time-to-reach-me-is-between-earliest-time-and-latest-time.-however-feel-free-to-leave-a-voice-message-and-i-will-return-your-call-as-soon-as-possible.}}
+
+\hypertarget{thank-you-for-taking-the-time-to-review-my-cv-and-portfolio.-i-look-forward-to-the-opportunity-to-speak-with-you.}{%
+\subsection{Thank you for taking the time to review my CV and portfolio.
+I look forward to the opportunity to speak with
+you.}\label{thank-you-for-taking-the-time-to-review-my-cv-and-portfolio.-i-look-forward-to-the-opportunity-to-speak-with-you.}}
+
+\hypertarget{yours-sincerely-puneet-enclosure-cv-portfolio}{%
+\subsection{\texorpdfstring{\textbf{Yours sincerely,}\\
+Puneet,\\
+Enclosure: CV \&
+Portfolio}{Yours sincerely, Puneet, Enclosure: CV \& Portfolio}}\label{yours-sincerely-puneet-enclosure-cv-portfolio}}
+
+\hypertarget{section}{%
+\subsection{}\label{section}}\strut
+\end{minipage}} \\
+\bottomrule()
+\end{longtable}
+
+\end{document}
